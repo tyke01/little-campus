@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAP</title>
+    <link rel="stylesheet" href="css/testing.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <main class="main-section w-full">
+      <section class="grid justify-center items-center bg-slate-300">
+        <div class="w-96 px-40 py-10 h-1/2 bg-gray-100 border border-slate-800">
+          <div class="bg-lime-600 p-10 box"></div>
+          <div class="circle bg-purple-600 p-10"></div>
+        </div>
+
+        <!-- ==== TIMING ==== -->
+        <div class="grid grid-cols-3 gap-5 bg-slate-100 p-10">
+          <div
+            class="box green bg-green-600 text-sm w-fit px-4 py-4 rounded-lg"
+          >
+            no delay
+          </div>
+          <div
+            class="box purple bg-purple-600 text-sm w-fit px-4 py-4 rounded-lg"
+          >
+            delay: 1
+          </div>
+          <div
+            class="box orange bg-orange-600 text-sm w-fit px-4 py-4 rounded-lg"
+          >
+            delay: 2
+          </div>
+        </div>
+        <!-- ==== TIMELINE ====  -->
+        <div class="flex flex-col gap-6 items-center bg-slate-200 p-10 m-10">
+          <div class="blue bg-blue-600 p-4 text-sm"></div>
+          <div class="red bg-red-600 p-4 text-sm"></div>
+          <div class="lime bg-lime-600 p-4 text-sm"></div>
+        </div>
+        <!--  -->
+      </section>
+
+      <!-- ==== ⬇⬇ THE REAL DEAL ⬇⬇ ====  -->
+      <section class="relative p-10 min-h-screen grid items-center">
+        <section
+          id="section-1"
+          class="sections w-full min-h-screen grid items-center justify-center absolute"
+        >
+          <div class="bg-slate-400 w-full p-10 grid items-center">
+            <div class="grid grid-cols-2 gap-2 mx-6">
+              <!--  -->
+              <div class="flex flex-col justify-center text-anim">
+                <h1 class="text-7xl font-semibold text-dark400">
+                  our educators are lifelong learners
+                </h1>
+                <p class="mt-6 text-2xl text-dark400">
+                  AT TLC, we provide our carefully selected educators with
+                  professional development training and ongoing learning
+                  opportunities
+                </p>
+                <a
+                  href="#"
+                  class="bg-slate-900 w-fit px-4 py-2 text-white uppercase mt-4"
+                  >Get to know our team</a
+                >
+              </div>
+              <!--  -->
+              <div class="rounded-lg overflow-hidden relative img-anim">
+                <img src="./img/teacher-1.jpg" alt="" />
+                <div
+                  class="half-circle bg-[#fde5af] min-h-screen w-96 absolute -top-0 z-10"
+                ></div>
+              </div>
+
+              <!--  -->
+            </div>
+          </div>
+        </section>
+        <!-- ==== SLIDER 1 TESTING ⬆⬆⬆⬆ -->
+        <section
+          id="section-2"
+          class="sections w-full bg-slate-300 absolute p-10"
+        >
+          <div
+            class="bg-lime-600 grid grid-cols-2 gap-5 items-center justify-center"
+          >
+            <p>second section</p>
+            <img src="./img/exterior1.jpg" alt="exterior" />
+          </div>
+        </section>
+        <!-- ==== SLIDER 2 TESTING ⬆⬆⬆⬆ -->
+        <section
+          id="section-3"
+          class="sections w-full bg-blue-600 absolute p-10"
+        >
+          <div
+            class="bg-red-700 grid grid-cols-2 gap-5 items-center justify-center"
+          >
+            <p>second section</p>
+            <img src="./img/teacher-2.jpg" alt="exterior" />
+          </div>
+        </section>
+        <!-- ==== SLIDER 3 TESTING ⬆⬆⬆⬆ -->
+        <section
+          id="section-4"
+          class="sections w-full bg-purple-600 absolute p-10"
+        >
+          <div
+            class="bg-yellow-600 grid grid-cols-2 gap-5 items-center justify-center"
+          >
+            <p>second section</p>
+            <img src="./img/exterior1.jpg" alt="exterior" />
+          </div>
+        </section>
+        <!-- ==== SLIDER 4 TESTING ⬆⬆⬆⬆ -->
+      </section>
+
+      <!-- ⬇⬇⬇⬇⬇ NEW TRIAL ⬇⬇⬇⬇⬇ -->
+      <section
+        class="flex items-center justify-center min-h-screen w-full bg-slate-500 text-white relative"
+      >
+        <div
+          id="slider-1"
+          class="slider bg-red-400 w-full h-[500px] grid grid-cols-2 gap-9 items-center absolute px-10"
+        >
+          <p class="slider-1-text">
+            <span class="text-2xl text-red-900 header-1-text">Who are you</span>
+            <br />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
+            ratione praesentium, vel necessitatibus odit aperiam inventore
+            commodi quidem saepe quia blanditiis est atque consequatur accusamus
+            et pariatur quo officia dolore expedita architecto aliquid, a modi!
+            Voluptatem facilis amet atque adipisci mollitia cupiditate. At,
+            temporibus assumenda. Dicta, consectetur. Enim, laudantium quae.
+          </p>
+
+          <img
+            src="./img/exterior1.jpg"
+            alt="exterior"
+            class="slider-1-image rounded-lg z-10"
+          />
+          <div class="cool-circle absolute bg-[#ceedea] top-0 right-0">
+            cool-circle
+          </div>
+        </div>
+
+        <div
+          id="slider-1"
+          class="slider bg-lime-400 w-full h-[500px] grid grid-cols-2 items-center gap-9 absolute px-10"
+        >
+          <p class="slider-2-text">
+            <span class="text-2xl text-lime-900">Who are we? </span> <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            aspernatur facilis atque modi sit quidem ratione iste nihil qui.
+            Itaque, voluptatibus repudiandae unde iure voluptate voluptatem ad
+            sequi ratione eos.
+          </p>
+          <img
+            src="./img/teacher-1.jpg"
+            alt=""
+            class="slider-2-image rounded-lg z-10"
+          />
+          <div class="cool-circle absolute bg-[#e8cdc8] top-0 right-0">
+            cool-circle
+          </div>
+        </div>
+
+        <div
+          id="slider-1"
+          class="slider bg-blue-400 w-full h-[500px] grid grid-cols-2 items-center gap-9 absolute px-10"
+        >
+          <p class="slider-3-text">
+            <span class="text-2xl text-blue-900">Find us near you</span> <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, est
+            blanditiis. Incidunt natus vitae doloremque rerum suscipit ab
+            maiores ipsum amet perferendis sit beatae officiis possimus tenetur
+            soluta, quidem rem!
+          </p>
+          <img
+            src="./img/teacher-2.jpg"
+            alt=""
+            class="slider-3-image rounded-lg z-10"
+          />
+          <div class="cool-circle absolute bg-[#e7ccc7] top-0 right-0">
+            cool-circle
+          </div>
+        </div>
+
+        <!-- <div
+          id="slider-1"
+          class="slider bg-purple-400 w-full h-[500px] grid grid-cols-2 items-center absolute px-10"
+        >
+          <p class="slider-4-text">
+            <span class="text-2xl text-purple-900">Connect with us</span> <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, est
+            blanditiis. Incidunt natus vitae doloremque rerum suscipit ab
+            maiores ipsum amet perferendis sit beatae officiis possimus tenetur
+            soluta, quidem rem!
+          </p>
+          <img
+            src="./img/teacher-2.jpg"
+            alt=""
+            class="slider-4-image rounded-lg z-10"
+          />
+          <div class="cool-circle absolute bg-[#e8cdc8] top-0 right-0">cool-circle</div>
+        </div> -->
+      </section>
+      <!--  -->
+      <section
+        class="min-h-screen w-full bg-slate-300 flex justify-center items-center gap-4"
+      >
+        <div>
+          <svg width="200" height="200">
+            <ellipse
+              id="circle"
+              cx="100"
+              cy="100"
+              rx="50"
+              ry="50"
+              fill="none"
+              stroke="lime"
+              stroke-width="10"
+            />
+          </svg>
+        </div>
+        <!--  -->
+
+        <!-- drawing svg's -->
+        <div class="flex justify-center items-center">
+          <svg class="circle-3" width="100" height="100">
+            <circle
+              cx="50"
+              cy="50"
+              r="45"
+              fill="none"
+              stroke="blue"
+              stroke-width="10"
+            ></circle>
+            
+          </svg>
+        </div>
+        <!--  -->
+      </section>
+
+      <section class="min-h-screen w-full">
+        <div class="flex justify-center items-center h-screen">
+          <div class="w-40 h-40 relative">
+            <div class="progress-bar bg-gray-300 border-4 border-gray-400 rounded-full absolute"></div>
+            <div id="progress" class="bg-blue-500 border-4 border-blue-600 rounded-full absolute"></div>
+            <span class="absolute text-xl font-semibold">60%</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./js/testing.js"></script>
+  </body>
+</html>

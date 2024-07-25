@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The whole child approach . Little Campus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/logo.png" />
+    <link rel="stylesheet" href="./css/about.css" />
+
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/whole-child-output.css" />
+  </head>
+  <body>
+    <!-- ==== NAVBAR ==== -->
+    <nav class="w-full fixed top-0 z-20 transition-transform delay-200">
+      <div
+        id="top-nav"
+        class="w-full bg-primary p-2.5 flex justify-center transition-transform delay-100"
+      >
+        <h2 class="text-white">
+          Now registering for 2024/2025!
+          <span class="font-bold cursor-pointer hover:text-gray-200"
+            >Register now!</span
+          >
+        </h2>
+      </div>
+
+      <div
+        id="bottom-nav"
+        class="flex justify-center transition-transform delay-100"
+      >
+        <ul
+          class="flex justify-between bg-gray-100 shadow-lg w-full px-32 text-sm items-center text-dark400 font-medium"
+        >
+          <!--  -->
+          <li class="w-20"><img src="./img/logo.png" alt="Logo" /></li>
+
+          <li class="flex items-center relative group">
+            <a
+              id="menu-btn-1"
+              class="uppercase links-hover before:bg-amber-800"
+              href="#"
+              >About us</a
+            >
+            <i class="ri-arrow-down-s-line arrow-color"></i>
+            <ul
+              id="menu-1"
+              class="flex flex-col gap-1 absolute top-6 -left-8 bg-white px-6 py-8 w-64 rounded-md shadow-xl border border-slate-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300"
+            >
+              <li class="relative">
+                <a
+                  href="./about.html"
+                  class="links-hover before:bg-amber-800"
+                >
+                  who are we
+                </a>
+              </li>
+              <li class="relative">
+                <a href="./whole-child-approach.html" class="links-hover before:bg-amber-800"
+                  >whole child approach</a
+                >
+              </li>
+              <li class="relative">
+                <a href="./programmes.html" class="links-hover before:bg-amber-800"
+                  >programmes</a
+                >
+              </li>
+              <li class="relative">
+                <a href="./facilities.html" class="links-hover before:bg-amber-800"
+                  >facilities</a
+                >
+              </li>
+              <li class="relative">
+                <a href="./team.html" class="links-hover before:bg-amber-800">our team</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="flex items-center relative group">
+            <a class="uppercase links-hover before:bg-amber-800" href="#"
+              >Resources</a
+            >
+            <i class="ri-arrow-down-s-line arrow-color"></i>
+
+            <ul
+              class="flex flex-col gap-1 absolute top-6 -left-8 bg-white px-6 py-8 w-64 rounded-md shadow-xl border border-slate-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300"
+            >
+              <li class="relative">
+                <a class="links-hover before:bg-amber-800" href="./calendar.html"
+                  >School calendar</a
+                >
+              </li>
+              <li class="relative">
+                <a class="links-hover before:bg-amber-800" href="./policies.html"
+                  >covid 19 policies info & policies</a
+                >
+              </li>
+              <li class="relative">
+                <a class="links-hover before:bg-amber-800" href="./schedule.html"
+                  >sample schedule</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="flex items-center relative group">
+            <a class="uppercase links-hover before:bg-amber-800" href="#"
+              >Registration</a
+            >
+            <i class="ri-arrow-down-s-line arrow-color"></i>
+            <ul
+              class="flex flex-col gap-1 absolute top-6 -left-8 bg-white px-6 py-8 w-64 rounded-md shadow-xl border border-slate-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300"
+            >
+              <li class="relative">
+                <a class="links-hover before:bg-amber-800" href="./registration.html"
+                  >Register now</a
+                >
+              </li>
+              <li class="relative">
+                <a class="links-hover before:bg-amber-800" href="./info.html"
+                  >Request more information</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a class="uppercase links-hover before:bg-amber-800" href="./faq.html"
+              >FAQ</a
+            >
+          </li>
+          <li>
+            <a class="uppercase links-hover before:bg-amber-800" href="./contact.html"
+              >contact</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="bg-secondary px-3 py-2 text-white uppercase">
+              Ifo@littlecampus.ca
+            </a>
+          </li>
+        </ul>
+        <!--  -->
+      </div>
+      <!--  -->
+    </nav>
+
+    <main class="flex gap-10 px-10 py-5 mt-40 w-full ">
+
+      <div class="width">
+        <div>
+          <span class="text-2xl text-gray-950"> The Whole Child Approach </span>
+          <p class="text-gray-500">
+            A teaching strategy that uses social-emotional learning to create
+            the best learning outcomes for all levels and stages of development.
+          </p>
+        </div>
+
+        <div id="fixed" class="text-sm flex flex-col">
+          <span class="text-gray-950 font-bold"> jump to: </span>
+          <ul class="text-gray-500">
+            <li><a class="hover:underline" href="#">Introduction</a></li>
+            <li><a class="hover:underline" href="#">What is it</a></li>
+            <li><a class="hover:underline" href="#">Five Pillars</a></li>
+            <li><a class="hover:underline" href="#">Healthy</a></li>
+            <li><a class="hover:underline" href="#">Safe</a></li>
+            <li><a class="hover:underline" href="#">Engaged</a></li>
+            <li><a class="hover:underline" href="#">Supported</a></li>
+            <li><a class="hover:underline" href="#">Challenged</a></li>
+            <li><a class="hover:underline" href="#">Closing Remarks</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="pr-40">
+
+        <div>
+          <h1 class="text-gray-900 font-bold text-xl">Introduction</h1>
+          <div>
+            <p class="mt-5">
+                At The Little Campus, we&apos;ve created a warm, safe and loving
+                environment for our children — a space where the uniqueness of each
+                child is respected and supported. <br />
+            </p>
+            <p class="mt-5 ">
+                From babies to preschoolers, we encourage children to grow and learn
+                using the Whole Child Approach. This teaching strategy uses
+                social-emotional learning to create the best learning outcomes for
+                all levels and stages of development
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="py-5 text-gray-900 font-bold text-xl">What is the Whole Child Approach</h1>
+          <p>
+            The objective of the Whole Child Approach is to ensure a
+            child&apos;s overall development, and help improve each
+            student&apos;s academic performance as they grow. The approach aims
+            to provide all children with the assistance and structure for
+            attaining long-term success in all areas of their lives. When
+            children of all ages are encompassed by the Whole Child concepts
+            (see below), they are able to learn to the best of their ability,
+            becoming well-functioning individuals
+          </p>
+        </div>
+
+        <div>
+          <h1 class="py-5 text-gray-900 font-bold text-xl">The Five Pillars</h1>
+          <p>
+            The teacher&apos;s role in the Whole Child Approach is to encourage
+            students to grow in every area. A “whole child” is curious,
+            creative, caring, empathetic and confident.
+            <br />
+            <p class="my-3">There are five key pillars to the Whole Child:</p>
+          </p>
+          <div>
+            <h2 class="py-5 text-gray-900 font-bold text-xl">1.Healthy</h2>
+            <p>
+              It is crucial to educate children on the importance of making
+              healthy decisions in their everyday lives. Whether it&apos;s
+              eating the right foods, engaging in regular exercise, or
+              practicing mindfulness, we put a strong importance on your
+              child&apos;s overall health at TLC. From infants and babies to
+              toddlers and preschoolers, we provide the following
+              age-appropriate activities to encourage children to practice
+              healthy living every day:
+            </p>
+
+            <div>
+              <h2 class="py-5 text-gray-500 font-bold text-xl">Yoga & Mindfulness</h2>
+              <div>
+                <p>
+                    Yoga creates a balance between strength and flexibility in
+                    little developing bodies. It helps them grow strong while
+                    maintaining the flexibility they were born with. Even at the
+                    baby stage, the poses and stretches for infants aid in digestion
+                    and help relieve constipation, gas and colic.
+                </p>
+                <br />
+                <p>
+                    As children develop, yoga is a great way to continue
+                    strengthening their bodies, calm their minds, and help them feel
+                    relaxed. Yoga also helps to improve sleeping patterns — both in
+                    duration and frequency — and encourages sleeping well at night
+                    too. Playful yoga songs and activities make the experience fun
+                    for little ones of all ages and stages!
+                </p>
+                <br />
+                <p>
+                    Mindfulness and meditation are introduced at the toddler and
+                    pre-school stage, and the benefits are endless. Meditation can
+                    improve your child&apos;s ability to focus, learn,
+                    self-regulate, elevate mood, and reduce stress and anxiety. The
+                    children at TLC practice meditation by learning breathing
+                    techniques, positive thinking and relaxation.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="py-5 text-gray-500 font-bold text-xl">Physical Education</h2>
+              <div>
+                <p>
+                    We expose children to physical activities that are both fun and
+                    age appropriate — both indoors and out! The Little Campus has
+                    over 5,000 square feet of outdoor space. We believe in as much
+                    outdoor and fresh air exposure as possible for children of all
+                    ages.
+                </p>
+                <br />
+                <p>
+                    Infants aged 0-12 months need plenty of opportunities for free
+                    movement, in a safe environment. At TLC, we&apos;ve created
+                    areas that encourage your child to explore and develop skills
+                    like reaching, tummy time, rolling, sitting up, crawling,
+                    pulling up and walking.
+                </p>
+                <br />
+                <p>
+                    Toddlers and children aged 2-5 years need plenty of time to run
+                    around and play. Children at TLC engage in both indoor and
+                    outdoor free play, community walks, dance, gymnastics, ball
+                    sports and organized, non-competitive games.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="py-5 text-gray-500 font-bold text-xl">Nutrition & Healthy Eating</h2>
+              <div>
+                <p>
+                    We offer lunch and snacks by Toronto&apos;s leading healthy
+                    catering company, Real Food for Real Kids.
+                </p>
+                <br />
+                <p>
+                    Real Food for Real Kids&apos; mission is to provide children
+                    with nutritious meals and snacks, inspiring future generations
+                    to make healthier choices every day. Their foods contain no
+                    artificial anything, and all produce and farming is local to
+                    Ontario. Their menus are always developed with healthy bodies
+                    and delicious flavours in mind — trust me, my family has tasted
+                    it all, and it&apos;s definitely kid-approved!
+                </p>
+                <br />
+                <p>
+                    At TLC, we foster family-style eating — where everyone sits
+                    around a table trying new foods together. No child is forced to
+                    eat anything they don&apos;t like, but we will encourage them to
+                    try different foods at their own pace. Truth be told, most
+                    don&apos;t need much encouragement, especially when they see
+                    their friends digging in. It&apos;s truly amazing to see the
+                    children make healthy choices!
+                </p>
+                <br />
+                <p>
+                    When it comes to infants, we know that new little tummies need
+                    consistency. That&apos;s why we feed our littlest ones exactly
+                    what their parents have provided us. Whether breast milk or
+                    formula, we make sure to stick with what is being fed at home.
+                </p>
+                <br />
+                <p>
+                    Please note that The Little Campus is a nut-free facility. As
+                    such, there are absolutely no nuts permitted inside the
+                    building. We kindly ask that families are mindful of what they
+                    are feeding their child prior to coming to school, and diligent
+                    about keeping children with food allergies safe. For example, if
+                    your child had peanut butter for breakfast, please ensure that
+                    they have washed their hands, and that there are no remnants on
+                    their bodies or clothing. In cases where a little one in your
+                    child&apos;s room has additional and/or different food
+                    allergies, we will ask for your cooperation in refraining from
+                    bringing those items into the classroom as well.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="py-5 text-gray-900 font-bold text-xl">2.Safe</h2>
+            <div>
+              <p>
+                  A child must feel safe and secure in their surroundings in order
+                  to engage in learning. This starts by encouraging harmonious
+                  relationships with their peers. Social learning at TLC begins
+                  right at the baby stage all the way through to pre-school. Our
+                  programming uses elements of the Ontario Ministry of Education's
+                  model of “How learning Happens.”
+              </p>
+              <br />
+              <p>
+                  It is also important that children feel a sense of belonging and
+                  well-being. This refers to a sense of connectedness to others, an
+                  individual&apos;s experiences of being valued, of forming
+                  relationships with others, and making contributions as part of a
+                  group, a community or the natural world.
+              </p>
+              <br />
+              <p>
+                  Well-being addresses the importance of physical and mental health
+                  and wellness. It incorporates capacities such as self-care, sense
+                  of self, and the ability to self-regulate.
+              </p>
+              <br />
+              <p>
+                  Classroom safety and school environment is of the utmost
+                  importance at The Little Campus. Each room at TLC has been
+                  designed to ensure the physical safety of all children. We pay
+                  attention to every little detail, like locking and securing heavy
+                  furniture to the wall, and making sure free-standing furniture is
+                  low enough to guarantee no child will go unnoticed — even during a
+                  game of hide-and-seek! We maintain sanitary and clutter-free
+                  classrooms, always.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="py-5 text-gray-900 font-bold text-xl">3.Engaged</h2>
+            <div>
+              <p>
+                  We help engage students in learning through play. We implement
+                  interactive projects and creative lessons taught and facilitated
+                  by teachers — but often inspired by what the children are
+                  interested in.
+              </p>
+              <br />
+              <p>
+                  Play is essentially governed by the needs and wishes of the child.
+                  It is through play that children develop the use of all their
+                  senses. It is a forum through which a child practices creativity,
+                  socialization, life skills and cognitive development. It is
+                  through play that we see the very important expression of all
+                  emotions.
+              </p>
+              <br />
+              <p>
+                  Your child will engage in a variety of hands-on activities.
+                  Whether it&apos;s getting our hands messy (literally and
+                  figuratively!) with paint or sitting outside under a tree for
+                  storytime, we ensure the children are always stimulated in
+                  creative ways. Increased interest and motivation help enhance
+                  student engagement and participation, which are key factors to
+                  classroom learning.
+              </p>
+              <br />
+              <p>
+                  When children are able to explore the world around them with their
+                  natural curiosity and exuberance, they are fully engaged. Through
+                  this type of inquisitive play at TLC, your little one will develop
+                  skills such as problem-solving, creative thinking, and innovating
+                  — which are essential for learning and success in school and
+                  beyond.
+              </p>
+              <br />
+              <p>
+                  Expression or communication (to be heard as well as to listen) can
+                  take many different forms. Through their bodies, words, and use of
+                  materials, children will develop capacities for increasingly
+                  complex communication. We will give ample opportunities for
+                  students to explore materials that support their creativity,
+                  problem-solving and mathematical behaviours. Language-rich
+                  environments support growing communication skills, which are
+                  foundational for literacy.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="py-5 text-gray-900 font-bold text-xl">4.Supported</h2>
+            <div>
+              <p>
+                  At TLC, we believe that support is key to an overall successful
+                  experience at school. That is why our Director has been certified
+                  through the renowned Child&apos;s Behaviour Certification Program,
+                  through The Early Years by Sharyn Timerman.
+              </p>
+              <br />
+              <p>
+                  She based the program&apos;s philosophy on the belief that
+                  children are a privilege and a gift that the family and community
+                  can appreciate. She believes it is critical to motivate and
+                  inspire children while setting rules and guidelines, helping them
+                  acquire habits, goals, and knowledge that lead to becoming
+                  well-functioning adults. The goal is to celebrate individuality
+                  and to help children become independent thinkers. Lastly, the
+                  mission of this program is to support the notion that all children
+                  can be taught to do good in the world simply for the sake of doing
+                  good.
+              </p>
+              <br />
+              <p>
+                  RECE teachers and assistants at The Learning Campus have all
+                  attended professional development courses based on “The Child
+                  Behaviour Certification Program.”
+              </p>
+              <br />
+              <p>
+                  When it comes to infants and babies, we pay close attention to
+                  each baby&apos;s cues. We very quickly learn when your baby is
+                  trying to communicate that they&apos;re happy, sad or in need of
+                  something. We take a very individualized approach to make sure all
+                  babies are heard even when they can&apos;t speak. We know that
+                  infants and babies require lots of stimulation, sensory
+                  activities, cuddles and sleep. We provide it all, and we even have
+                  a few “Baby Whisperers” on staff!
+              </p>
+              <br />
+              <p>
+                  As language develops, we encourage the children to use their
+                  voice, share their thoughts and opinions, and ask questions. Our
+                  goal for children of all ages is to feel confident, heard, and
+                  accepted within the classroom, and by their teachers and friends.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="py-5 text-gray-900 font-bold text-xl">5.Challenged</h2>
+            <div>
+              <p>
+                  At the child&apos;s individual level, teachers will offer rich
+                  learning experiences through literacy, numeracy, social education,
+                  the arts, math, science and physical education. The Little Campus
+                  has its very own reading program, created by owner Tami Zuckerman.
+                  Tami holds a Bachelor of Education degree, and is specially
+                  certified in Early Literacy.
+              </p>
+              <br />
+              <p>
+                  It is important to note that while children will be challenged at
+                  their individual level, we only promote learning that is positive,
+                  age appropriate and fun. There is no room for frustration — a
+                  child will never be pushed beyond their limits. For example, a
+                  child who is not showing signs of reading readiness will be
+                  brought up to speed at their own pace with emergent literacy
+                  activities. Making sure a child is ready for the next level in any
+                  subject is key to their future academic success. It is vital that
+                  we motivate any child that is demonstrating signs of frustration.
+                  We do this to alleviate the risk of turning them off of a given
+                  subject.
+              </p>
+            </div>
+          </div>
+          <!-- ---- CLOSING REMARKS ---- -->
+          <div>
+            <h2 class="py-5 text-gray-900 font-bold text-xl">Closing Remarks</h2>
+            <p>
+              At The Little Campus, we commit to focusing on all of the Whole
+              Child Approach concepts mentioned above. We will weave it into all
+              aspects of our programming, ensuring optimal learning and healthy
+              development. And we will do so with tender loving care.
+            </p>
+
+            <p class="py-5 text-gray-900 font-bold text-xl">We can&apos;t wait to meet your little one!</p>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+
+    </main>
+
+  
+    <footer class="bg-blue-300 flex flex-col gap-5 w-full">
+      <div class="grid grid-cols-5 justify-center px-5 py-10">
+        <div class="grid gap-5">
+          <p>Follow us... We're social!</p>
+          <div class="flex items-center gap-[20px]">
+            <a
+              href="#"
+              class="bg-gray-100 px-2 py-1 text-xl font-bold rounded-md"
+              title="facebook"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+            <a
+              href="#"
+              class="bg-gray-100 px-2 py-1 text-xl font-bold rounded-md"
+              title="instagram"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-black text-lg font-bold">About Us</h2>
+          <ul>
+            <li class="w-fit">
+              <a class="hover:underline" href="./about.html"
+                >Who we are</a
+              >
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./whole-child-approach.html">Approach</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./programmes.html">Programs</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./facilities.html">Facilities</a>
+            </li>
+            <li class="w-fit"><a class="hover:underline" href="./team.html">Team</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-black text-lg font-bold">Info</h2>
+          <ul>
+            <li class="w-fit"><a class="hover:underline" href="./faq.html">FAQ</a></li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./policies.html">COVID-19</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./schedule.html">Sample Schedule</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-black text-lg font-bold">Registration</h2>
+          <ul>
+            <li class="w-fit">
+              <a class="hover:underline" href="./registration.html">Register now</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./info.html">Request info</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-black text-lg font-bold">Contact</h2>
+          <a class="hover:underline" href="#">info@littlecampus.ca</a>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center pb-32 text-sm font-light ">
+        &copy; 2023 The Little Campus, inc. All right reserved.
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

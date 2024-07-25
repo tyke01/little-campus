@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.half-circle{
+    clip-path: circle(50.0% at 96% 50%);
+  }
+  
+  .cool-circle{
+    clip-path: circle(70.1% at 98% 50%);
+    height: 31.3rem;
+    width: 30rem;
+  }

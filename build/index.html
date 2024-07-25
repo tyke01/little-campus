@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>little Campus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.png" />
+
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- ==== NAVBAR ==== -->
+    <nav class="w-full fixed top-0 z-20 transition-transform delay-200 ">
+      <div
+        id="top-nav"
+        class="w-full bg-primary p-2.5 flex justify-center transition-transform delay-100"
+      >
+        <h2 class="text-white">
+          Now registering for 2024/2025!
+          <span class="font-bold cursor-pointer hover:text-gray-200"
+            >Register now!</span
+          >
+        </h2>
+      </div>
+      
+      <div
+        id="bottom-nav"
+        class="flex justify-center transition-transform delay-100 "
+      >
+        <ul
+          class="flex justify-between bg-gray-100 shadow-lg w-full px-32 text-sm items-center text-dark400 font-medium"
+        >
+          <!--  -->
+          <li class="w-20"><img src="./img/logo.png" alt="Logo" /></li>
+
+          <li class="flex items-center relative group">
+            <a
+              id="menu-btn-1"
+              class="uppercase links-hover before:bg-amber-800"
+              href="#"
+              >About us</a
+            >
+            <i class="ri-arrow-down-s-line arrow-color"></i>
+            <ul
+              id="menu-1"
+              class="flex flex-col gap-1 absolute top-6 -left-8 bg-white px-6 py-8 w-64 rounded-md shadow-xl border border-slate-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300"
+            >
+              <li class="relative">
+                <a href="./about.html" class="links-hover before:bg-amber-800">
+                  who are we
+                </a>
+              </li>
+              <li class="relative">
+                <a
+                  href="./whole-child-approach.html"
+                  class="links-hover before:bg-amber-800"
+                  >whole child approach</a
+                >
+              </li>
+              <li class="relative">
+                <a
+                  href="./programmes.html"
+                  class="links-hover before:bg-amber-800"
+                  >programmes</a
+                >
+              </li>
+              <li class="relative">
+                <a
+                  href="./facilities.html"
+                  class="links-hover before:bg-amber-800"
+                  >facilities</a
+                >
+              </li>
+              <li class="relative">
+                <a href="./team.html" class="links-hover before:bg-amber-800"
+                  >our team</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="flex items-center relative group">
+            <a class="uppercase links-hover before:bg-amber-800" href="#"
+              >Resources</a
+            >
+            <i class="ri-arrow-down-s-line arrow-color"></i>
+
+            <ul
+              class="flex flex-col gap-1 absolute top-6 -left-8 bg-white px-6 py-8 w-64 rounded-md shadow-xl border border-slate-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300"
+            >
+              <li class="relative">
+                <a
+                  class="links-hover before:bg-amber-800"
+                  href="./calendar.html"
+                  >School calendar</a
+                >
+              </li>
+              <li class="relative">
+                <a
+                  class="links-hover before:bg-amber-800"
+                  href="./policies.html"
+                  >covid 19 policies info & policies</a
+                >
+              </li>
+              <li class="relative">
+                <a
+                  class="links-hover before:bg-amber-800"
+                  href="./schedule.html"
+                  >sample schedule</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="flex items-center relative group">
+            <a class="uppercase links-hover before:bg-amber-800" href="#"
+              >Registration</a
+            >
+            <i class="ri-arrow-down-s-line arrow-color"></i>
+            <ul
+              class="flex flex-col gap-1 absolute top-6 -left-8 bg-white px-6 py-8 w-64 rounded-md shadow-xl border border-slate-300 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300"
+            >
+              <li class="relative">
+                <a
+                  class="links-hover before:bg-amber-800"
+                  href="./registration.html"
+                  >Register now</a
+                >
+              </li>
+              <li class="relative">
+                <a class="links-hover before:bg-amber-800" href="./info.html"
+                  >Request more information</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a
+              class="uppercase links-hover before:bg-amber-800"
+              href="./faq.html"
+              >FAQ</a
+            >
+          </li>
+          <li>
+            <a
+              class="uppercase links-hover before:bg-amber-800"
+              href="./contact.html"
+              >contact</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="bg-secondary px-3 py-2 text-white uppercase">
+              Ifo@littlecampus.ca
+            </a>
+          </li>
+        </ul>
+        <!--  -->
+      </div>
+      <!-- ! MOBILE MENU ! -->
+   
+      <!-- ! END OF MOBILE MENU !  -->
+    </nav>
+    <!-- ==== END OF NAVBAR ==== -->
+
+    <!-- ==== FIRST HERO ==== -->
+    <main class="relative mt-40 w-full min-h-screen ">
+
+      <section class="absolute slider">
+        <div class="grid grid-cols-2 gap-2 mx-6 md:flex md:flex-col md:gap-10">
+          <div class="flex flex-col justify-center slider-1-text">
+            <h1 class="text-7xl font-semibold text-dark400">
+              our educators are lifelong learners
+            </h1>
+            <p class="mt-6 text-2xl text-dark400">
+              AT TLC, we provide our carefully selected educators with
+              professional development training and ongoing learning
+              opportunities
+            </p>
+            <a
+              href="#"
+              class="bg-secondary w-fit px-4 py-2 text-white uppercase mt-4"
+              >Get to know our team</a
+            >
+          </div>
+
+          <img
+            src="./img/teacher-1.jpg"
+            alt=""
+            class="rounded-lg slider-1-image z-10"
+          />
+          <div class="cool-circle absolute bg-[#ceedea] -top-10 right-0"></div>
+        </div>
+      </section>
+      <!-- ==== SECOND HERO ==== -->
+
+      <section class="absolute slider w-full">
+        <div class="grid grid-cols-2 gap-2 mx-6">
+          <div class="flex flex-col justify-center slider-2-text">
+            <h1 class="text-7xl font-semibold text-dark400">
+              Little ones need a lot of TLC
+            </h1>
+            <p
+              class="mt-6 text-2xl text-dark400 flex flex-col gap-5 font-semibold"
+            >
+              We are a state-of-the-art Early Childhood Education & Daycare
+              Centre in Etobicoke <br />
+              <span class="text-xl font-normal">
+                At The Little Campus, our curriculum is loaded with tender
+                loving care. It&apos;s no coincidence we&apos;re called TLC for
+                short
+              </span>
+            </p>
+            <a
+              href="#"
+              class="bg-secondary w-fit px-4 py-2 text-white uppercase mt-4"
+              >learn nore about our approach</a
+            >
+          </div>
+
+          <img
+            src="./img/teacher-2.jpg"
+            alt=""
+            class="rounded-lg slider-2-image z-10"
+          />
+          <div class="cool-circle absolute bg-[#ceedea] -top-10 right-0"></div>
+        </div>
+      </section>
+
+      <!-- ==== SECOND HERO ==== -->
+
+      <section class="absolute slider w-full">
+        <div class="grid grid-cols-2 gap-2 mx-6">
+          <div class="flex flex-col justify-center slider-3-text">
+            <h1 class="text-7xl font-semibold text-dark400">
+              Green Means Grow
+            </h1>
+            <p
+              class="mt-6 text-2xl text-dark400 flex flex-col gap-5 font-normal"
+            >
+              A natural environment. Lots of green space. Room to play and
+              learn. Our state-of-the art facilities provide just the right
+              environment for growing minds and bodies
+            </p>
+            <a
+              href="#"
+              class="bg-secondary w-fit px-4 py-2 text-white uppercase mt-4"
+              >explore our Campus</a
+            >
+          </div>
+
+          <img
+            src="./img/exterior1.jpg"
+            alt="exterior"
+            class="rounded-lg slider-3-image z-10"
+          />
+          <div class="cool-circle absolute bg-[#ceedea] -top-10 right-0"></div>
+        </div>
+      </section>
+
+    </main>
+    <!-- ==== END OF HERO ==== -->
+
+    <!-- ==== INSTAGRAM ==== -->
+
+    <section class="w-full min-h-screen">
+      <a href="#" class="flex flex-col items-center gap-20">
+        <div class="text-5xl text-center text-[#363636] grid gap-6">
+          <p>Follow us on instagram <br /></p>
+          <span>to discover our unique programming</span>
+        </div>
+        <img src="./img/instagram.png" alt="instagram" class="w-48" />
+      </a>
+    </section>
+
+    <section class="w-full px-10 mb-10">
+      <div class="flex gap-5">
+        <img src="./img/child-2.jpg" alt="" class="w-[700px] h-[350px]" />
+
+        <div class="px-5 flex flex-col gap-4 items-start justify-start">
+          <h1 class="text-xl font-medium">The Whole Child Approach</h1>
+          <span class="bg-amber-600 w-7 h-1"></span>
+          <p>
+            Social and emotional learning. Physical and mental health. Our very
+            own early literacy program. And an overall focus on safety and
+            support. That&apos;s TLC.
+          </p>
+          <a
+            href="#"
+            class="text-amber-600 -rotate-6 hover:rotate-0 transition-all delay-100 uppercase text-sm"
+            >Learn more</a
+          >
+        </div>
+
+        <img
+          src="./img/child-4.jpg"
+          alt=""
+          class="w-[300px] h-[350px] object-cover"
+        />
+      </div>
+
+      <div class="flex">
+        <div class="flex flex-col items-start justify-center gap-6">
+          <h1>Our Team</h1>
+          <span class="bg-amber-600 w-7 h-1"></span>
+          <p>
+            Our experienced director, highly trained ECEs, and classroom
+            assistants are valued and respected members of the TLC family. We
+            love them as much as they adore your kids!
+          </p>
+          <a
+            href="#"
+            class="text-amber-600 -rotate-6 hover:rotate-0 transition-all delay-100 uppercase text-sm"
+            >meet the team</a
+          >
+        </div>
+        <img src="./img/interior-1.jpg" alt="" class="w-[659px]" />
+      </div>
+    </section>
+
+    <section
+      class="w-full px-10 flex flex-col items-center justify-center mb-10 gap-10"
+    >
+      <h1 class="text-2xl font-semibold">What Our Families Say...</h1>
+      <div id="grid-container" class="grid grid-cols-4 gap-4">
+        <!-- <div id="grid-card" class="bg-gray-300 items-start p-10 rounded-md">
+          <div class="flex gap-2">
+            <img
+              src="./img/child-2.jpg"
+              alt=""
+              class="w-5 aspect-square rounded-full"
+            />
+            <p>Cee Ocampo</p>
+          </div>
+          <div class="text-yellow-500 text-3xl flex">
+            &#9733; &#9733; &#9733; &#9733; &#9733;
+          </div>
+          <p>
+            Our daughter was part of the first cohort at The Little Campus and
+            she has just
+          </p>
+          <a href="#" class="text-gray-400 hover:text-gray-600 hover:underline"
+            >Read more</a
+          >
+        </div> -->
+      </div>
+
+      <div class="mt-10">
+        <a
+          href="#"
+          class="capitalize py-2 px-10 rounded-md bg-gray-200 hover:bg-gray-300 transition-all duration-300 font-bold"
+          >load more</a
+        >
+      </div>
+    </section>
+
+    <footer class="bg-blue-300 flex flex-col gap-5 w-full">
+      <div class="grid grid-cols-5 justify-center px-5 py-10">
+        <div class="grid gap-5">
+          <p>Follow us... We're social!</p>
+          <div class="flex items-center gap-[20px]">
+            <a
+              href="#"
+              class="bg-gray-100 px-2 py-1 text-xl font-bold rounded-md"
+              title="facebook"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+            <a
+              href="#"
+              class="bg-gray-100 px-2 py-1 text-xl font-bold rounded-md"
+              title="instagram"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-black text-lg font-bold">About Us</h2>
+          <ul>
+            <li class="w-fit">
+              <a class="hover:underline" href="./about.html">Who we are</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./whole-child-approach.html"
+                >Approach</a
+              >
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./programmes.html">Programs</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./facilities.html">Facilities</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./team.html">Team</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-black text-lg font-bold">Info</h2>
+          <ul>
+            <li class="w-fit">
+              <a class="hover:underline" href="./faq.html">FAQ</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./policies.html">COVID-19</a>
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./schedule.html"
+                >Sample Schedule</a
+              >
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-black text-lg font-bold">Registration</h2>
+          <ul>
+            <li class="w-fit">
+              <a class="hover:underline" href="./registration.html"
+                >Register now</a
+              >
+            </li>
+            <li class="w-fit">
+              <a class="hover:underline" href="./info.html">Request info</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-black text-lg font-bold">Contact</h2>
+          <a class="hover:underline" href="#">info@littlecampus.ca</a>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center pb-32 text-sm font-light">
+        &copy; 2023 The Little Campus, inc. All right reserved.
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- WELL, I ALMOST FORGOT BUT THIS IS LIKE SWIPER.JS, THE MAIN JS FILES COME AFTER -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

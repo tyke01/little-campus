@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.arrow-color {
+  @apply font-medium text-lg;
+}
+
+.links-hover{
+    position: relative;
+    cursor: pointer;
+}
+.links-hover:hover{
+  color: #92400e;
+}
+.links-hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: width 0.3s ease-in-out;
+}
+
+.links-hover:hover::before {
+  width: 100%;
+}
+
+.window-scroll{
+    display: none;
+    transition: display 300ms ease;
+}
+
+.cool-circle{
+  clip-path: circle(70.1% at 98% 50%);
+  height: 31.3rem;
+  width: 30rem;
+}
+.progress-bar {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* npx tailwindcss -i ./src/input.css -o ./build/css/output.css --watch */
+/* npx tailwindcss -i ./src/styles.css -o ./build/css/testing.css --watch */
+/* npx tailwindcss -i ./src/about-input.css -o ./build/css/about.css --watch */
+/* npx tailwindcss -i ./src/whole-child.css -o ./build/css/whole-child-output.css --watch */
+/* npx tailwindcss -i ./src/programmes-input.css -o ./build/css/programmes-output.css --watch */
+/* npx tailwindcss -i ./src/calendar-input.css  -o ./build/css/calendar-output.css --watch */
+/* npx tailwindcss -i ./src/facilities-input.css -o ./build/css/facilities-output.css --watch */
+/* npx tailwindcss -i ./src/contact-input.css -o ./build/css/contact-output.css --watch */
+/* npx tailwindcss -i ./src/faq-input.css -o ./build/css/faq-output.css --watch */
+/* npx tailwindcss -i ./src/info-input.css -o ./build/css/info-output.css --watch */
+
+/* npx tailwindcss -i ./src/policies-input.css -o ./build/css/policies-output.css --watch */
+/* npx tailwindcss -i ./src/registration-input.css -o ./build/css/registration-output.css --watch */
+/* npx tailwindcss -i ./src/schedule-input.css -o ./build/css/schedule-output.css --watch */
+/* npx tailwindcss -i ./src/team-input.css -o ./build/css/team-output.css --watch */
+
+
